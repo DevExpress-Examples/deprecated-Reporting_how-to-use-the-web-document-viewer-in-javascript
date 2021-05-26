@@ -17,7 +17,7 @@ This example demonstrates how to use the <a href="https://documentation.devexpr
 <strong>See also<br></strong>
 
 - [JavaScript Reporting](https://docs.devexpress.com/XtraReports/118599/web-reporting/javascript-reporting)
-- [How to use the Web Report Designer in JavaScript](https://www.devexpress.com/Support/Center/p/T561230)
+- [How to use the Web Report Designer in JavaScript](https://github.com/DevExpress-Examples/Reporting_how-to-use-the-web-report-designer-in-javascript-t561230)
 
 <br/>
 
