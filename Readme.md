@@ -17,5 +17,4 @@ This example demonstrates how to use the <a href="https://documentation.devexpr
 <br/>
 
 ### Important
-Refer to the following documentation topics to learn how to use the Web Document Viewer and Report Designer in JavaScript applications:
-[JavaScript Reporting](https://docs.devexpress.com/XtraReports/118599/web-reporting/javascript-reporting).
+Refer to the following documentation topics to learn how to use the Web Document Viewer and Report Designer in JavaScript applications based on different frameworks - Knockout-based Applications, Angular, React, Vue: [JavaScript Reporting](https://docs.devexpress.com/XtraReports/118599/web-reporting/javascript-reporting).
