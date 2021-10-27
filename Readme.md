@@ -1,25 +1,7 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128596808/19.2.1%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T561226)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+⛔ DEPRECATED. This example demonstrates how to integrate the [Web Document Viewer](https://docs.devexpress.com/XtraReports/17738/create-end-user-reporting-applications/web-reporting/asp-net-webforms-reporting/document-viewer?v=19.1) in JavaScript app. The project uses the [Bower](https://bower.io/) package manager.
 
-* [bower.json](./CS/ClientSide/bower.json) (VB: [bower.json](./VB/ClientSide/bower.json))
-* **[example.js](./CS/ClientSide/example.js) (VB: [example.js](./VB/ClientSide/example.js))**
-* [index.html](./CS/ClientSide/index.html) (VB: [index.html](./VB/ClientSide/index.html))
-* [style.css](./CS/ClientSide/style.css)
-* [WebDocumentViewerController.cs](./CS/ServerSide/Controllers/WebDocumentViewerController.cs) (VB: [WebDocumentViewerController.vb](./VB/ServerSide/Controllers/WebDocumentViewerController.vb))
-* [Global.asax.cs](./CS/ServerSide/Global.asax.cs) (VB: [Global.asax.vb](./VB/ServerSide/Global.asax.vb))
-* [MyReportStorage.cs](./CS/ServerSide/MyReportStorage.cs) (VB: [MyReportStorage.vb](./VB/ServerSide/MyReportStorage.vb))
-<!-- default file list end -->
-# How to use the Web Document Viewer in JavaScript
+For a step-by-step tutorial, refer to the following help topic: [Basic Document Viewer Integration (With Bower)](https://docs.devexpress.com/XtraReports/119336/create-end-user-reporting-applications/web-reporting/javascript-reporting/document-viewer/integration-examples/basic-document-viewer-integration-with-bower?v=19.1).
 
-This example demonstrates how to use the <a href="https://documentation.devexpress.com/XtraReports/17738/Concepts/Publishing-Reports/Document-Viewer-Platform-Specifics/ASP-NET/HTML5-Document-Viewer">HTML5 Document Viewer</a> in JavaScript.<br><br>The example consists of two parts: <br>1. A server (backend) project in ASP.NET MVC implementation (the <strong>ServerSide </strong>solution). At the backend, cross-domain requests are enabled (Access-Control-Allow-Origin) and a custom report storage is implemented.<br><br>2. A client (frontend) part (the <strong>ClientSide </strong>folder) that includes styles, scripts and HTML-templates. <br>To download all necessary client resources for this example, navigate to the <strong>ClienSide </strong>folder, open the console and run the following command:<br><em>bower install<br><br></em>
+Starting from v19.2, you should use the **npm package manager**. For more information, review the following help topic: [Reporting for Knockout-based Applications](https://docs.devexpress.com/XtraReports/401917/web-reporting/javascript-reporting/knockout).
 
-<strong>See also:</strong><br/>
-* [How to use the Web Report Designer in JavaScript](https://github.com/DevExpress-Examples/Reporting_how-to-use-the-web-report-designer-in-javascript-t561230)
-* [Using Reporting Controls in JS](https://docs.devexpress.com/XtraReports/118599/creating-end-user-reporting-applications/web-reporting/using-reporting-controls-in-js?v=17.2)
-<br/>
-
+The current repository and the DevExpress Reporting Bower package will not be updated in the future.
