@@ -5,7 +5,7 @@ Imports System.Web.Mvc
 
 Namespace ServerSide.Controllers
     Public Class WebDocumentViewerController
-        Inherits WebDocumentViewerApiController
+        Inherits WebDocumentViewerApiControllerBase
 
         Public Overrides Function Invoke() As ActionResult
             Dim result = MyBase.Invoke()

@@ -5,7 +5,7 @@ using DevExpress.XtraReports.Web.Extensions;
 
 namespace ServerSide.Controllers
 {
-    public class WebDocumentViewerController : WebDocumentViewerApiController {
+    public class WebDocumentViewerController : WebDocumentViewerApiControllerBase {
         public override ActionResult Invoke() {
             var result = base.Invoke();
             // Allow cross-domain requests.
