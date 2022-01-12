@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "HTML5 Document Viewer example",
   "dependencies": {
-    "xtrareportsjs": "~17.1.6"
+    "xtrareportsjs": "^17.2.1"
   },
   "authors": [
     "DevExpress"
